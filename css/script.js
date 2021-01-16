@@ -11,13 +11,6 @@ var storedScores;
 var scoreList = [];
 
 
-var correctSound = new Audio("assets/audios/correct.wav");
-
-var incorrectSound = new Audio("assets/audios/incorrect.wav");
-
-
-
-
 function setTime() {
     var timerInterval = setInterval(function () {
         secondsLeft--;
