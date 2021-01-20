@@ -1,25 +1,25 @@
 var questions = [
     {
         title: "What does HTML stand for?",
-        choices: ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
+        choices: ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Home Tools for Most Languages"],
         answer: "Hyper Text Markup Language"
     },
 
     {
-        title: "Who is making the Web standards?",
-        choices: ["Mozilla", "Google", "The World Wide Web Consortium", "Microsoft"],
-        answer: "The World Wide Web Consortium"
+        title: "Inside which HTMNL element do we put the JavaScript?",
+        choices: ["<scripting>", "<script>", "<javascript>", "<js>"],
+        answer: "<script>"
     },
 
     {
-        title: "Choose the correct HTML element for the largest heading:",
+        title: "Which HTML element would you use for the largest heading:",
         choices: ["<heading>", "<h1>", "<h6>", "head"],
         answer: "<h1>"
     },
 
     {
         title: "What is the correct HTML element for inserting a line break?",
-        choices: ["<lb>", "<break>", "<br>"],
+        choices: ["<lb>", "<break>", "<br>", "<brk>"],
         answer: "<br>"
     },
 
@@ -31,31 +31,31 @@ var questions = [
 
     {
         title: "Where in an HTML document is the correct place to refer to an external style sheet?",
-        choices: ["In the <body> section", "At the end of the document", "In the <head> sections"],
+        choices: ["In the <body> section", "At the end of the document", "In the <head> sections", "You can place it anywhere"],
         answer: "In the <head> sections"
     },
 
     {
         title: "Which HTML attribute is used to define inline styles?",
-        choices: ["font","style", "class", "styles"],
+        choices: ["font", "style", "class", "styles"],
         answer: "style"
     },
 
     {
-        title: "Which HTML attribute is used to define inline styles?",
-        choices: ["bgcolor", "background-color", "color"],
+        title: "Which style attribute in CSS is used to define the background color?",
+        choices: ["bgcolor", "background-color", "color", "mycolor"],
         answer: "background-color"
     },
 
     {
-        title: "Where is the correct place to insert a JavaScript?",
-        choices: ["The <body> section", "The <head> section", "Both the <head> section and the <body> section are correct"],
-        answer: "The <head> section"
+        title: "How can you add a comment in a JavaScript?",
+        choices: ["'This is a comment'", "<!--This is a comment-->", "//This is a comment", "\\This is a comment"],
+        answer: "//This is a comment"
     },
 
     {
         title: "How do you create a function in JavaScript?",
-        choices: ["function = myFunction()", "function:myFunction", "function myFunction"],
+        choices: ["function = myFunction()", "function:myFunction", "function myFunction", "None of the Above"],
         answer: "function = myFunction()"
     },
 ];
