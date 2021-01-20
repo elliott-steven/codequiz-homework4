@@ -7,7 +7,7 @@ var questions = [
     },
 
     {
-        title: "Inside which HTMNL element do we put the JavaScript?",
+        title: "Inside which HTML element do we put the JavaScript?",
         choices: ["<scripting>", "<script>", "<javascript>", "<js>"],
         answer: "<script>"
     },
