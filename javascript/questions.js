@@ -1,3 +1,4 @@
+//This is a list of questions i found on the web. They attach to functions on my script page.
 var questions = [
     {
         title: "What does HTML stand for?",

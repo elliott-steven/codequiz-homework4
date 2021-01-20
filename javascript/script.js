@@ -10,14 +10,7 @@ var secondsLeft = 180;
 var storedScores;
 var scoreList = [];
 
-
-var rightAnswer = new Audio("assets/audios/correct.wav");
-
-var wrongAnswer = new Audio("assets/audios/incorrect.wav");
-
-
-
-
+//This starts the timer and lets you know when time is up
 function setTime() {
     var timerInterval = setInterval(function () {
         secondsLeft--;
@@ -110,13 +103,11 @@ document.getElementById("answerOne").addEventListener("click", function () {
     if (questions[i]["choices"][0] === questions[i]["answer"]) {
         messageDiv.textContent = "That's Correct!";
         score++;
-        rightAnswer.play();
-    }
+            }
     else {
         messageDiv.textContent = "Wrong Answer!";
         secondsLeft -= 10;
-        wrongAnswer.play();
-    }
+            }
     i++;
     questionSetter();
 })
@@ -125,13 +116,11 @@ document.getElementById("answerTwo").addEventListener("click", function () {
     if (questions[i]["choices"][1] === questions[i]["answer"]) {
         messageDiv.textContent = "That's Correct!";
         score++;
-        rightAnswer.play();
-    }
+            }
     else {
         messageDiv.textContent = "Wrong Answer!";
         secondsLeft -= 10;
-        wrongAnswer.play();
-    }
+            }
     i++;
     questionSetter();
 })
@@ -140,13 +129,11 @@ document.getElementById("answerThree").addEventListener("click", function () {
     if (questions[i]["choices"][2] === questions[i]["answer"]) {
         messageDiv.textContent = "That's Correct!";
         score++;
-        rightAnswer.play();
-    }
+            }
     else {
         messageDiv.textContent = "Wrong Answer!";
         secondsLeft -= 10;
-        wrongAnswer.play();
-    }
+            }
     i++;
     questionSetter();
 })
@@ -155,13 +142,11 @@ document.getElementById("answerFour").addEventListener("click", function () {
     if (questions[i]["choices"][3] === questions[i]["answer"]) {
         messageDiv.textContent = "That's Correct!";
         score++;
-        rightAnswer.play();
-    }
+            }
     else {
         messageDiv.textContent = "Wrong Answer!";
         secondsLeft -= 10;
-        wrongAnswer.play();
-    }
+            }
     i++;
     questionSetter();
 })
