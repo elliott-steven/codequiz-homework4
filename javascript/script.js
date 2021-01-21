@@ -6,7 +6,7 @@ var timer = document.querySelector("#time");
 var messageDiv = document.querySelector("#message");
 var i = 0;
 var score = 0;
-var secondsLeft = 180;
+var secondsLeft = 240;
 var storedScores;
 var scoreList = [];
 
