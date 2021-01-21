@@ -101,11 +101,11 @@ answerFour.hidden = true;
 
 document.getElementById("answerOne").addEventListener("click", function () {
     if (questions[i]["choices"][0] === questions[i]["answer"]) {
-        messageDiv.textContent = "That's Correct!";
+        alert("That's Correct!");
         score++;
             }
     else {
-        messageDiv.textContent = "Wrong Answer!";
+        alert("Wrong Answer!");
         secondsLeft -= 10;
             }
     i++;
@@ -114,11 +114,11 @@ document.getElementById("answerOne").addEventListener("click", function () {
 
 document.getElementById("answerTwo").addEventListener("click", function () {
     if (questions[i]["choices"][1] === questions[i]["answer"]) {
-        messageDiv.textContent = "That's Correct!";
+        alert("That's Correct!");
         score++;
             }
     else {
-        messageDiv.textContent = "Wrong Answer!";
+        alert("Wrong Answer!");
         secondsLeft -= 10;
             }
     i++;
@@ -127,11 +127,11 @@ document.getElementById("answerTwo").addEventListener("click", function () {
 
 document.getElementById("answerThree").addEventListener("click", function () {
     if (questions[i]["choices"][2] === questions[i]["answer"]) {
-        messageDiv.textContent = "That's Correct!";
+        alert("That's Correct!");
         score++;
             }
     else {
-        messageDiv.textContent = "Wrong Answer!";
+        alert("Wrong Answer!");
         secondsLeft -= 10;
             }
     i++;
@@ -140,11 +140,11 @@ document.getElementById("answerThree").addEventListener("click", function () {
 
 document.getElementById("answerFour").addEventListener("click", function () {
     if (questions[i]["choices"][3] === questions[i]["answer"]) {
-        messageDiv.textContent = "That's Correct!";
+        alert("That's Correct!");
         score++;
             }
     else {
-        messageDiv.textContent = "Wrong Answer!";
+        alert("Wrong Answer!");
         secondsLeft -= 10;
             }
     i++;
